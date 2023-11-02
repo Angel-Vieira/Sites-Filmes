@@ -3,6 +3,8 @@ const config = {
     perView: 5,
     gap: 5,
     slidesToShow: 3,
+    perTouch: false,
+    perTouch: 3,
     center: true,
     // autoplay: 3000,
     breakpoints:{
@@ -20,6 +22,7 @@ const carroussel2 = {
     perView: 5,
     gap: 8,
     center:true,
+    perTouch: 2,
     // autoplay: 1000,
     slidesToShow: 3,
     breakpoints:{
@@ -35,6 +38,7 @@ const carroussel3 = {
     perView: 5,
     gap: 8,
     center:true,
+    perTouch:4,
     slidesToShow: 3,
     // autoplay: 1000,
     breakpoints:{
