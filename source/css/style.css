@@ -1,0 +1,102 @@
+
+.background{
+    position: relative;   
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding-inline: 55px;
+}
+
+.background::after {
+   
+    content: ""; /* Adicione conteúdo ao pseudo-elemento, é necessário para a exibição. */
+    background-image: url("https://i0.wp.com/assets.b9.com.br/wp-content/uploads/2019/05/netflix-library.jpg?fit=1600%2C900&ssl=1"); /* Substitua 'sua-imagem.jpg' pelo caminho para a sua imagem de fundo. */
+    opacity: 1; /* Defina a opacidade desejada. */
+    position: absolute; /* Posicione o pseudo-elemento absolutamente em relação ao elemento pai. */
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; /* Coloque o pseudo-elemento atrás do conteúdo do elemento pai. */
+    background-size: cover;
+}
+
+
+.header{
+    /* background-color: #030D17; */
+    display: flex;
+    padding: 10px;
+    padding-inline: 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav .ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #041853;
+    gap: 10px;
+}
+
+.category-slide {
+    background-color:  #030D17;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+
+.category{
+   width: 70vw;
+    padding-left: 55px;
+ 
+}
+
+.category-slide .lateral-menu{
+    width: 30vw;
+    margin-left: 10px;
+   
+}
+
+.lateral-menu figure{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lateral-menu figure img{
+    max-width: 100%;
+    padding: 10px;
+}
+
+.lateral-menu .celebrities-box{
+    border-top: 1px solid white;
+    margin-inline: 10px;
+}
+
+
+.lateral-menu .celebrities-box .celebrities ul li{
+    display: flex;
+    max-width: 50%;
+    padding-block: 10px;
+    gap: 5px;
+
+}
+
+.lateral-menu .celebrities-box .celebrities ul li p{
+   max-width: 30%;
+}
+
+.lateral-menu .celebrities-box .celebrities ul li img{
+    min-width: 30px;
+    max-width: 70%;
+    
+}
+
+.lateral-menu h2{
+    text-align: center;
+}
+

@@ -1,0 +1,22 @@
+@media(max-width:450px){
+    .category, .header, main{
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .category-slide {
+        font-size: 10px;
+    }
+
+    .category-slide  .lateral-menu{
+        margin-left: 0px;
+        
+    }
+}
+
+@media(max-width:700px){
+ 
+    .glide__arrows{
+        display: none;
+    }
+}
