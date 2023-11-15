@@ -53,6 +53,7 @@
     width: 100px;
     min-height: 100%;
     margin-inline: 10px;
+    
   
 }
 
@@ -60,5 +61,6 @@
     max-width: 95%;
     max-height: 350px;
     min-height: 80px;
+   
     
 }

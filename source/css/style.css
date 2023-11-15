@@ -70,6 +70,7 @@ main{
 .lateral-menu figure img{
     max-width: 100%;
     padding: 10px;
+  
 }
 
 .lateral-menu .celebrities-box{
@@ -80,19 +81,19 @@ main{
 
 .lateral-menu .celebrities-box .celebrities ul li{
     display: flex;
-    max-width: 50%;
     padding-block: 10px;
     gap: 5px;
 
 }
 
-.lateral-menu .celebrities-box .celebrities ul li p{
-   max-width: 30%;
+.lateral-menu .celebrities-box .celebrities ul li .text{
+   flex: 1;
 }
 
 .lateral-menu .celebrities-box .celebrities ul li img{
     min-width: 30px;
-    max-width: 70%;
+    max-width: 40%;
+    
     
 }
 
@@ -100,3 +101,16 @@ main{
     text-align: center;
 }
 
+.video-container {
+    background-color:  #030D17;
+    width: 100%;
+    padding-left: 55px;
+}
+
+.video {
+    padding: 30px 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
