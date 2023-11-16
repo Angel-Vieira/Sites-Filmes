@@ -10,8 +10,6 @@
 
 .glide__track {
     overflow: hidden;
-    
-   
 }
 
 .glide__slides {
@@ -26,8 +24,7 @@
     padding: 0;
     display: flex;
     flex-wrap: nowrap;
-    will-change: transform;
-    
+    will-change: transform;   
 }
 
 .glide__slides--dragging {

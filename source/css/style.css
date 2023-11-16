@@ -79,7 +79,7 @@ main{
 }
 
 
-.lateral-menu .celebrities-box .celebrities ul li{
+.lateral-menu .celebrities-box .celebrities ul li a{
     display: flex;
     padding-block: 10px;
     gap: 5px;
